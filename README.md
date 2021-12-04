@@ -1,2 +1,4 @@
-hii"# Kudale-Server" 
-"# SenderGrid-Email-Server-NodeJS" 
+insall npm 
+npm i @sendgrid/mail
+run - node server.js
+happy
