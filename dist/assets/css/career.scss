@@ -1,0 +1,38 @@
+@import "../styles/global.scss";
+
+.career-form {
+  input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #717171;
+    outline: none;
+    width: 80%;
+    background: transparent;
+    &::placeholder {
+      color: #717171;
+    }
+  }
+  #cv {
+    margin-top: 30px;
+  }
+
+  .errorMsg {
+    color: red;
+  }
+  .submit-form {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 30px;
+    button {
+        cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 0.4em 2em;
+    background-color: var(--secondary-text);
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    }
+  }
+}

@@ -1,0 +1,271 @@
+* {
+  font-family: "Roboto", sans-serif !important;
+  p,
+  .content {
+    text-align: justify;
+  }
+  -webkit-font-smoothing: antialiased;
+}
+img {
+  max-width: none !important;
+}
+.vc_column_container > .vc_column-inner {
+  padding-bottom: 15px !important;
+}
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  /* Article Block */
+  .column-count-6 .mp-container {
+    width: 33.33%;
+  }
+
+  .column-count-5 .mp-container {
+    width: 50%;
+  }
+
+  .column-count-3 .mp-container .mp-title,
+  .column-count-4 .mp-container .mp-title,
+  .column-count-5 .mp-container .mp-title,
+  .column-count-6 .mp-container .mp-title {
+    font-size: 16px;
+  }
+}
+
+/*
+* -------------------------------------------------------------------------------------------
+* ALL DEVICES INCLUDING TABLET LANDSCAPE
+* -------------------------------------------------------------------------------------------
+*/
+
+@media only screen and (max-width: 1024px) {
+  /* Content Slider */
+  .mnky-content-slider .flex-direction-nav {
+    display: none;
+  }
+
+  .mnky-content-slider.paging-false:not(.arrows-false) {
+    margin-bottom: 70px;
+  }
+
+  .mnky-content-slider.paging-false:not(.arrows-false) .flex-control-paging {
+    display: block;
+  }
+}
+
+/*
+* -------------------------------------------------------------------------------------------
+* TABLET LANDSCAPE ONLY
+* -------------------------------------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 980px) and (max-width: 1024px) {
+  /* Article Block */
+  .column-count-6 .mp-container {
+    width: 33.33%;
+  }
+
+  .column-count-5 .mp-container {
+    width: 50%;
+  }
+
+  .column-count-3 .mp-container .mp-title,
+  .column-count-4 .mp-container .mp-title,
+  .column-count-6 .mp-container .mp-title {
+    font-size: 16px;
+  }
+}
+
+/*
+* -------------------------------------------------------------------------------------------
+* ALL DEVICES STARTING TABLET PORTRAIT
+* -------------------------------------------------------------------------------------------
+*/
+
+@media only screen and (max-width: 979px) {
+  /* Column in pre-content area */
+  .vc_responsive .pre-content .vc_row .wpb_column:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  /* Removing too much space from spacer element */
+  .vc_empty_space {
+    max-height: 150px !important;
+  }
+
+  /* Article Block */
+  .mp-layout-6 .mp-container .mp-title {
+    font-size: 24px;
+  }
+
+  .mp-layout-6 .mp-container {
+    max-height: 320px;
+  }
+
+  /* Countdown */
+  .vc_responsive .vc_row .mnky_countdown_wrapper .vc_col-sm-3 {
+    width: 25%;
+  }
+
+  /* 4 columns becomes 2 in footer */
+  .vc_responsive .footer-sidebar .vc_row .vc_col-sm-3 {
+    width: 50%;
+  }
+
+  .vc_responsive .footer-sidebar .vc_row .vc_col-sm-3:nth-child(3) {
+    clear: left;
+  }
+}
+
+/*
+* -------------------------------------------------------------------------------------------
+* TABLET PORTRAIT ONLY
+* -------------------------------------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  /* Article Block */
+  .column-count-4 .mp-container,
+  .column-count-5 .mp-container {
+    width: 50%;
+  }
+
+  .column-count-6 .mp-container {
+    width: 33.33%;
+  }
+
+  .column-count-3 .mp-container .mp-title,
+  .column-count-6 .mp-container .mp-title {
+    font-size: 16px;
+  }
+
+  /* Team */
+  .mnky_team_wrapper .team_member_name {
+    font-size: 20px;
+  }
+
+  /* Countdown */
+  .mnky_countdown_wrapper div span {
+    font-size: 70px !important;
+  }
+}
+
+/*
+* -------------------------------------------------------------------------------------------
+* MOBILE BOTH VIEWS
+* -------------------------------------------------------------------------------------------
+*/
+
+@media only screen and (max-width: 767px) {
+  /* Removing too much space from spacer element */
+  .vc_empty_space {
+    max-height: 60px !important;
+  }
+
+  #main .vc_empty_space {
+    max-height: 60px !important;
+  }
+
+  /* Article Block */
+  .column-count-2 .mp-container,
+  .column-count-3 .mp-container,
+  .column-count-4 .mp-container,
+  .column-count-5 .mp-container,
+  .column-count-5 .mp-container {
+    width: 100%;
+  }
+
+  /* Testimonials */
+  .mnky_testimonials-slider .testimonial-content {
+    font-size: 24px;
+  }
+
+  .mnky_testimonials-slider .testimonial-author {
+    font-size: 20px;
+  }
+
+  /* Columns becomes 1 in footer */
+  .vc_responsive .footer-sidebar .vc_row .vc_col-sm-3 {
+    width: 100%;
+  }
+
+  .vc_responsive .footer-sidebar .vc_row .vc_col-sm-6 {
+    width: 100%;
+  }
+
+  .vc_responsive .footer-sidebar .vc_row .vc_col-sm-4 {
+    width: 100%;
+  }
+}
+
+/*
+* -------------------------------------------------------------------------------------------
+* MOBILE LANDSCAPE ONLY
+* -------------------------------------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* Countdown */
+  .mnky_countdown_wrapper div span {
+    font-size: 55px !important;
+  }
+}
+
+/*
+* -------------------------------------------------------------------------------------------
+* MOBILE PORTRAIT & LOWER
+* -------------------------------------------------------------------------------------------
+*/
+
+@media only screen and (max-width: 479px) {
+  /* Content box */
+  .mnky-content-box:not(.keep-paddings) {
+    padding: 40px !important;
+  }
+
+  /* Article Block */
+  .column-count-2 .mp-container,
+  .column-count-3 .mp-container,
+  .column-count-4 .mp-container,
+  .column-count-5 .mp-container,
+  .column-count-6 .mp-container {
+    width: 100%;
+  }
+
+  /* Countdown */
+  .mnky_countdown_wrapper div span {
+    font-size: 20px !important;
+  }
+
+  /* Buttons */
+  .vc_btn,
+  .mnky_button {
+    margin-right: 0;
+  }
+}
+.contactimg {
+  width: 60px !important;
+}
+#main {
+  background: #fff;
+  margin: 0 auto;
+  padding: 115px 25px 0px 25px !important;
+}
+#wrapper {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  overflow-x: hidden;
+  background: #fff;
+}
+
+.wpcf7-form {
+  p {
+    font-weight: 600;
+    color: #031935;
+  }
+}
+.service-content {
+  h5 {
+    font-weight: 600;
+    color: #031935;
+  }
+}
